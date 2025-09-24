@@ -133,7 +133,7 @@ def feedback_screen():
   text("Score: " + str(score), width - 70, 30)  #display the current score
   if question_index < len(questions):
     fill(255)
-    text("Press 'n' For Next Question", width / 2, height - 50)  #display the next question prompt
+    text("Press 'n' For Next Question", width / 2, height - 100)  #display the next question prompt
   fill(255)
   text("Press 'b' To Go Back", width / 2, height - 50)  #display the back button text
 
